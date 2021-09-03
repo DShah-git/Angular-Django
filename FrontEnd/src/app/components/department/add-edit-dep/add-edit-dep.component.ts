@@ -10,6 +10,7 @@ import { SharedService } from 'src/app/shared.service';
 export class AddEditDepComponent implements OnInit {
 
   @Input() dep:any;
+
   DepartmentId:String='';
   DepartmentName:String='';
 
